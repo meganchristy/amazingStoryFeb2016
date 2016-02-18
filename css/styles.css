@@ -1,0 +1,81 @@
+
+
+body{
+
+	background-image: url('../images/squashPlayer.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: contain;
+	background-color: rgb(220, 42, 32);
+	background-position: center;
+}
+
+h1 {
+
+	font-family: 'riffic', sans-serif;
+	color: red;
+	text-align: center;
+	font-size: 100px;
+}
+
+h2 {
+
+	font-family: 'riffic', sans-serif;
+	color: red;
+	text-align: center;
+	font-size: 40px;
+}
+
+p {
+	font-family: 'railway', sans-serif; 
+	color: white;
+	font-size: 20px;
+}
+
+.myLinks {
+	color: white;
+}
+
+.myLinks:hover {
+	color:red;
+}
+
+.transparent_b {
+	background: rgba(0, 0, 0, .5);
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 1%;
+	background-size: 50%
+}
+
+.firstLetter {
+	font-size: 100px;
+}
+
+.firstLetter:hover {
+	color: red;
+}
+
+.floatRight{
+	float: right;
+}
+
+.floatLeft{
+	float: left;
+}
+
+.clearIt{
+	clear: both;
+}
+
+@font-face{
+	font-family: riffic;
+	src:url("../fonts/riffic/riffic.otf") format("opentype");
+}
+
+@font-face{
+	font-family: railway;
+	src:url("../fonts/railway/Railway.otf") format("opentype");
+}
